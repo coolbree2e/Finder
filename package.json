@@ -1,0 +1,25 @@
+{
+  "name": "finder",
+  "version": "1.0.0",
+  "description": "Dating app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolbree2e/Finder.git"
+  },
+  "author": "Colby Schumm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolbree2e/Finder/issues"
+  },
+  "homepage": "https://github.com/coolbree2e/Finder#readme"
+}
