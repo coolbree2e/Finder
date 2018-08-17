@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2013/10/01/16/55/magnifying-glass-189254__340.png");
+
+        }
+
+        /* could not get the css style sheet to link so it's wraped in a style tag */
+
+        .container {
+            margin-top: 55px;
+            color: black !important;
+            text-shadow: 1px 1px darkgray !important;
+            font-family: 'Anton', sans-serif !important;
+            margin-bottom: 50px;
+        }
+
+        .forms {
+            border-width: 4px;
+            border-style: solid;
+            width: 100%;
+        }
+
+        .jumbotron {
+            opacity: 0.95 !important;
+            background-color: lightgray !important;
+            margin: 25px 66px !important;
+
+        }
+
+        .display-4,
+        .lead,
+        #lead {
+            text-align: center;
+            font-family: 'Oswald', sans-serif !important;
+        }
+
+        #btn {
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <!-- home page bootstrap stuff -->
+    <div class="jumbotron">
+        <h1 class="display-4" type="text-algin-center">Finder</h1>
+        <h2 class="lead">Take a quick survey and find a pal or nemisis</h2>
+        <h2 class="lead"> Might like what you see or you might not</h2>
+        <hr class="my-4">
+        <p></p>
+        <a  class="btn btn-primary btn-lg" href="/survey" >Take Suvey</a>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="../data/friends.js">API friends</a> |
+                <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        // java to get the button to work
+      $("#but").on("click",function(event){
+          event.preventDefault();
+          console.log("worked");
+      });
+    </script>
+</body>
+
+</html>

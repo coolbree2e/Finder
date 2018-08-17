@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2013/10/01/16/55/magnifying-glass-189254__340.png");
+
+}
+
+.container{
+    margin-top: 55px;
+    color: black !important;
+    text-shadow: 1px 1px darkgray !important;
+    font-family:  'Anton', sans-serif !important;
+    margin-bottom: 50px;
+}
+.forms{
+    border-width: 4px;
+    border-style: solid;
+    width: 100%;
+}
+.jumbotron {
+    opacity: 0.95 !important;
+    background-color:lightgray!important;
+   margin: 25px 66px !important;
+
+}
+.display-4, .lead, #lead {
+text-align: center;
+font-family: 'Oswald', sans-serif !important;}
+#btn{
+    width: 100%
+}

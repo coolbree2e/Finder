@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- all of the links  -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- <script src="main.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2013/10/01/16/55/magnifying-glass-189254__340.png");
+
+        }
+
+        .container {
+            margin-top: 55px;
+            color: black !important;
+            text-shadow: 1px 1px darkgray !important;
+            font-family: 'Anton', sans-serif !important;
+            margin-bottom: 50px;
+        }
+
+        .forms {
+            border-width: 4px;
+            border-style: solid;
+            width: 100%;
+        }
+
+        .jumbotron {
+            opacity: 0.95 !important;
+            background-color: lightgray !important;
+            margin: 25px 66px !important;
+
+        }
+
+        .display-4,
+        .lead,
+        #lead {
+            text-align: center;
+            font-family: 'Oswald', sans-serif !important;
+        }
+
+        #btn {
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <!-- the question -->
+    <div class="container">
+
+        <h1>Here are the questions</h1>
+        <hr>
+        <h2>About You</h2>
+        <p></p>
+        <h2>Name (required)</h2>
+        <input placeholder="Your name here" type="text" id="name" class="forms" required>
+        <p></p>
+        <h2>Link for your photo (required)</h2>
+        <input placeholder="Link to your photo here" type="text" id="photo" class="forms" required>
+        <p></p>
+        <hr>
+        <p></p>
+        <h3 class="quest">Question 1</h3>
+        <h2> Kittens are really cute. </h2>
+        <select class="choose" id="q1">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+
+        <h3 class="quest">Question 2</h3>
+        <h2> Fire excites me ! </h2>
+        <select class="choose" id="q2">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 3</h3>
+        <h2> The Universe can be saved by wiping out half of the beings in it. </h2>
+        <select class="choose" id="q3">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 4</h3>
+        <h2> My mind is always racing. </h2>
+        <select class="choose" id="q4">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 5</h3>
+        <h2> My casual drinking is your alcohol poisoning. </h2>
+        <select class="choose" id="q5">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 6</h3>
+        <h2> Fist fights are more fun than gunfights. </h2>
+        <select class="choose" id="q6">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 7</h3>
+        <h2> A great sense of humor is important. </h2>
+        <select class="choose" id="q7">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 8</h3>
+        <h2> My imagination is strong. </h2>
+        <select class="choose" id="q8">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 9</h3>
+        <h2> Sleeping in a cold room with a heavy blanket is the best way to sleep. </h2>
+        <select class="choose" id="q9">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <h3 class="quest">Question 10</h3>
+        <h2> Waking up with a hangover is in a way paying a debt. </h2>
+        <select class="choose" id="q10">
+            <option value="" disabled selected>Select your option</option>
+            <option value="1"> 1 (Strongly disagree)
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly agree</option>
+        </select>
+        <!-- the submit button -->
+        <p></p>
+        <button id="btn" type="button" class="btn btn-primary btn-lg">Let's do this !</button>
+    </div>
+    <script>
+         $("#btn").on("click", function(event) {
+      event.preventDefault();
+console.log("worked");
+        var useData ={
+            name:$("#name").val().trim(),
+            photo:$("#photo").val().trim(),
+            answers:[
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ]
+        };
+        console.log(useData);
+        $.post("/../app/data/friends", useData,
+        function(data) {
+
+         
+        });
+
+    });
+
+        
+    </script>
+</body>
+
+</html>
