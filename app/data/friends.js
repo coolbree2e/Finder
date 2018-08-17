@@ -16,7 +16,7 @@ var frinedAry = [
         ]
     },
     {
-        name:"Felix",
+        name:"Felix the Cat",
         photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhjzeLCo0aSGT8kPIwEyRehVebCNhkMev3iDfgrUqGMheuaM0Ng",
         scores:[
             "5",
