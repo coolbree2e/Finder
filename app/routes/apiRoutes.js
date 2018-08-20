@@ -39,19 +39,23 @@ console.log("api as a whole " + friends[apiAns].scores);
       // console.log(useInput.answers[inputAns],friends[apiAns].scores[inputAns])
       totDiff += 1;
     }
-    // keeps track of the diffences between the usser answer and the friends API
-    totDifferences.push(totDiff);
+    
   }
-
+// keeps track of the diffences between the usser answer and the friends API
+totDifferences.push(totDiff);
 }
 console.log("---------------");
 console.log("what i need to use to find the match  " + totDifferences);
-      
-        
+
+function indexOfSmallest(a) {
+  return a.indexOf(Math.min.apply(Math, a));
+ }
+ 
+console.log("This is the answer " + indexOfSmallest(totDifferences));
 
 
-
+ console.log(friends[indexOfSmallest(totDifferences)]);
   })
-
+  // alert("hello");
 
 }
