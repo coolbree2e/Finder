@@ -19,21 +19,33 @@ module.exports = function (app) {
     var usePhoto = useInput.photo;
     var matchN = "";
     var matchP = "";
+    var totDifferences = [];
     console.log("variable for user answers  " + useAns);
     console.log("Is there a photo " + usePhoto);
 
     // compares the user input to the API to find a match
-
-    for (let i = 0; i < friends.length; i++) {
-      // puts the user answers into interger
-      console.log(JSON.stringify(friends[i].scores));
+    for(var i = 0; i < useInput.length; i++) {
+      useAns[i] = parseInt(useAns[i]);
     }
-        // puts the user answers into interger
-        for(var i = 0; i < useInput.length; i++) {
-          useAns[i] = parseInt(useAns[i]);
-        }
-        console.log(JSON.stringify(friends[i].scores));
-        console.log(useInput.answers[i]);
+
+for (let apiAns = 0; apiAns < friends.length-1; apiAns++) {
+  var totDiff = 0;
+
+console.log("api as a whole " + friends[apiAns].scores);
+// checks the user answers with the API
+  for (let inputAns = 0; inputAns< 9; inputAns++){
+// using the foor loop to check 
+    if(useInput.answers[inputAns] != friends[apiAns].scores[inputAns]){
+      // console.log(useInput.answers[inputAns],friends[apiAns].scores[inputAns])
+      totDiff += 1;
+    }
+    // keeps track of the diffences between the usser answer and the friends API
+    totDifferences.push(totDiff);
+  }
+
+}
+console.log("---------------");
+console.log("what i need to use to find the match  " + totDifferences);
       
         
 
