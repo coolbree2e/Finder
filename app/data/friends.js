@@ -3,32 +3,32 @@ var frinedAry = [
         name: "Captian America",
         photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDrTJ5UcWyp7GReW-TnRhY3XaMjA19GfGK8hG7LsDWNPTZWa6sA",
         scores:[
-            "1",
-            "5",
-            "5",
-            "3",
-            "4",
-            "5",
-            "2",
-            "4",
-            "3",
-            "1"
+            1,
+            5,
+            5,
+            3,
+            4,
+            5,
+            2,
+            4,
+            3,
+            1
         ]
     },
     {
         name:"Felix the Cat",
         photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPhjzeLCo0aSGT8kPIwEyRehVebCNhkMev3iDfgrUqGMheuaM0Ng",
         scores:[
-            "5",
-            "3",
-            "2",
-            "1",
-            "5",
-            "1",
-            "4",
-            "4",
-            "1",
-            "1"
+            5,
+            3,
+            2,
+            1,
+            5,
+            1,
+            4,
+            4,
+            1,
+            1
         ]
     },
     {

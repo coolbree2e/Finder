@@ -75,7 +75,7 @@
         <h2> Kittens are really cute. </h2>
         <select class="choose" id="q1">
             <option value="" disabled selected>Select your option</option>
-            <option value="1"> 1 (Strongly disagree)
+            <option value=1> 1 (Strongly disagree)
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
@@ -92,7 +92,7 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly agree</option>
         </select>
-        <h3 class="quest">Question 3</h3>
+        <!-- <h3 class="quest">Question 3</h3>
         <h2> The Universe can be saved by wiping out half of the beings in it. </h2>
         <select class="choose" id="q3">
             <option value="" disabled selected>Select your option</option>
@@ -171,37 +171,54 @@
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5 (Strongly agree</option>
-        </select>
+        </select> -->
         <!-- the submit button -->
         <p></p>
         <button id="btn" type="button" class="btn btn-primary btn-lg">Let's do this !</button>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="api/friends">API friends</a> |
+                <a href="https://github.com/coolbree2e/Finder">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
+
     <script>
-         $("#btn").on("click", function(event) {
-      event.preventDefault();
-        var useData ={
-            name:$("#name").val().trim(),
-            photo:$("#photo").val().trim(),
-            answers:[
-                $("#q1").val(),
-                $("#q2").val(),
-                $("#q3").val(),
-                $("#q4").val(),
-                $("#q5").val(),
-                $("#q6").val(),
-                $("#q7").val(),
-                $("#q8").val(),
-                $("#q9").val(),
-                $("#q10").val()
-            ]
-        };
-        console.log(useData);
-        var curURl =  window.location.origin;
-        $.post(curURl + "/api/friends", useData,
-        function(data) {
-        });
-        // clears the input fields
-        $("#q1").val(),
+        $("#btn").on("click", function (event) {
+            event.preventDefault();
+            //   if the fields are filled out
+            //   if($("#name").val() && $("#photo").val() ){}
+            //   captures all user data
+            var useData = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                answers: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    // parseInt$("#q3").val(),
+                    // $parseInt("#q4").val(),
+                    // parseInt$("#q5").val(),
+                    // parseInt$("#q6").val(),
+                    // $parseInt("#q7").val(),
+                    // $parseInt("#q8").val(),
+                    // $parseInt("#q9").val(),
+                    // parseInt$("#q10").val()
+                ]
+
+            };
+
+
+
+
+
+            console.log("see what you get" + useData.answers);
+            var curURl = window.location.origin;
+            $.post(curURl + "/api/friends", useData,
+                function (data) {});
+            // clears the input fields
+            $("#q1").val(),
                 $("#q2").val(""),
                 $("#q3").val(""),
                 $("#q4").val(""),
@@ -211,9 +228,7 @@
                 $("#q8").val(""),
                 $("#q9").val(""),
                 $("#q10").val("")
-    });
-
-        
+        });
     </script>
 </body>
 
