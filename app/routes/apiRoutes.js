@@ -24,10 +24,17 @@ module.exports = function (app) {
 
     // compares the user input to the API to find a match
 
-      for (let i = 0; i < friends.length; i++) {
+    for (let i = 0; i < friends.length; i++) {
+      // puts the user answers into interger
+      console.log(JSON.stringify(friends[i].scores));
+    }
         // puts the user answers into interger
+        for(var i = 0; i < useInput.length; i++) {
+          useAns[i] = parseInt(useAns[i]);
+        }
         console.log(JSON.stringify(friends[i].scores));
-      }
+        console.log(useInput.answers[i]);
+      
         
 
 
