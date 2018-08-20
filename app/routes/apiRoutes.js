@@ -53,9 +53,10 @@ function indexOfSmallest(a) {
  
 console.log("This is the answer " + indexOfSmallest(totDifferences));
 
+res.json(friends[indexOfSmallest(totDifferences)]);
 
  console.log(friends[indexOfSmallest(totDifferences)]);
   })
   // alert("hello");
-
 }
+// 

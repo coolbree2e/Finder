@@ -175,11 +175,11 @@
 
 
 
-        <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal" id="modal"tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">Modal title</h5>
+                      <h5 class="modal-title">Your New Friend</h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -188,8 +188,8 @@
                       <p>Modal body text goes here.</p>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                     </div>
                   </div>
                 </div>
@@ -242,7 +242,7 @@
             $.post(curURl + "/api/friends", useData,
                 function (data) {});
             // clears the input fields
-            $("#q1").val(),
+                $("#q1").val(),
                 $("#q2").val(""),
                 $("#q3").val(""),
                 $("#q4").val(""),
