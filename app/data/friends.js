@@ -3,7 +3,7 @@ var frinedAry = [
         name: "Captian America",
         photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDrTJ5UcWyp7GReW-TnRhY3XaMjA19GfGK8hG7LsDWNPTZWa6sA",
         scores:[
-            1,
+              1,
             5,
             5,
             3,
@@ -35,128 +35,128 @@ var frinedAry = [
         name: "Barack Obama",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F822547732376207360%2F5g0FC8XX_400x400.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fbarackobama&docid=R_im7f16BlMbPM&tbnid=GlbIM36FVP_5HM%3A&vet=10ahUKEwiF99uVhvDcAhUL84MKHQ06CPIQMwiEAigFMAU..i&w=240&h=240&bih=826&biw=1440&q=obama&ved=0ahUKEwiF99uVhvDcAhUL84MKHQ06CPIQMwiEAigFMAU&iact=mrc&uact=8",
         scores:[
-            "2",
-            "2",
-            "4",
-            "3",
-            "3",
-            "4",
-            "4",
-            "2",
-            "3",
-            "5"
+            2,
+            2,
+            4,
+            3,
+            3,
+            4,
+            4,
+            2,
+            3,
+            5
         ]
     },
     {
         name: "Thanos",
         photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqJUVGFeEq09bM9wg15Pd7nMobl0C68B1N-i7CKjFMcfeD_g4kA",
         scores:[
-            "1",
-            "5",
-            "5",
-            "5",
-            "3",
-            "2",
-            "1",
-            "4",
-            "3",
-            "4"
+            1,
+            5,
+            5,
+            5,
+            3,
+            2,
+            1,
+            4,
+            3,
+            4
         ]
     },
     {
         name:"Bob Ross",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic-cdn.jtvnw.net%2Fjtv_user_pictures%2Fbobross-profile_image-0b9dd167a9bb16b5-300x300.jpeg&imgrefurl=https%3A%2F%2Fwww.twitch.tv%2Fbobross&docid=knRxTfzpQBVexM&tbnid=DFuX29M4DKRFHM%3A&vet=10ahUKEwjwtKCshvDcAhVk2IMKHXoyDuMQMwicAigIMAg..i&w=300&h=300&bih=826&biw=1440&q=bob%20ross&ved=0ahUKEwjwtKCshvDcAhVk2IMKHXoyDuMQMwicAigIMAg&iact=mrc&uact=8",
         scores:[
-            "4",
-            "1",
-            "1",
-            "4",
-            "5",
-            "3",
-            "3",
-            "5",
-            "3",
-            "3"
+            4,
+            1,
+            1,
+            4,
+            5,
+            3,
+            3,
+            5,
+            3,
+            3
         ]
     },
     {
         name: "Bigfoot",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fnerdist.com%2Fwp-content%2Fuploads%2F2018%2F02%2FiPg67gVboxwYVQgep1TQHCsTanv.jpg&imgrefurl=https%3A%2F%2Fnerdist.com%2Fbigfoot-lawsuit-california%2F&docid=4_ywd56cGTrVLM&tbnid=bB79lbS9NOwQ2M%3A&vet=10ahUKEwiuxKvFhvDcAhUs_IMKHacfAp4QMwiHAigRMBE..i&w=970&h=545&bih=826&biw=1440&q=bigfoot&ved=0ahUKEwiuxKvFhvDcAhUs_IMKHacfAp4QMwiHAigRMBE&iact=mrc&uact=8",
         scores:[
-            "4",
-            "1",
-            "3",
-            "4",
-            "4",
-            "2",
-            "2",
-            "2",
-            "5",
-            "3"
+            4,
+            1,
+            3,
+            4,
+            4,
+            2,
+            2,
+            2,
+            5,
+            3
         ]
     },
     {
         name:"Scar",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fdisney%2Fimages%2F7%2F79%2FScar-1-%2528The_Lion_King%2529.jpg%2Frevision%2Flatest%3Fcb%3D20120408194432&imgrefurl=http%3A%2F%2Fdisney.wikia.com%2Fwiki%2FFile%3AScar-1-(The_Lion_King).jpg&docid=Uf0C1TY6Ui42PM&tbnid=l61tFvSiwJjPgM%3A&vet=10ahUKEwiFnavbhvDcAhVB54MKHZLpCdAQMwjVASgKMAo..i&w=1920&h=1080&bih=826&biw=1440&q=scar%20lion%20king&ved=0ahUKEwiFnavbhvDcAhVB54MKHZLpCdAQMwjVASgKMAo&iact=mrc&uact=8",
         scores:[
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3"
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
         ]
     },
     {
         name:"Drake",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.biography.com%2F.image%2Ft_share%2FMTQ3NTI2OTA4NzY5MjE2MTI4%2Fdrake_photo_by_prince_williams_wireimage_getty_479503454.jpg&imgrefurl=https%3A%2F%2Fwww.biography.com%2Fpeople%2Fdrake-596834&docid=uY8f94RxkEuzQM&tbnid=PdxJK-lL4Gp81M%3A&vet=10ahUKEwj92Nf6hvDcAhWNyIMKHSs4D2IQMwiVAigGMAY..i&w=1200&h=1200&bih=826&biw=1440&q=drake&ved=0ahUKEwj92Nf6hvDcAhWNyIMKHSs4D2IQMwiVAigGMAY&iact=mrc&uact=8",
         scores:[
-            "4",
-            "4",
-            "4",
-            "1",
-            "5",
-            "5",
-            "4",
-            "2",
-            "4",
-            "4"
+            4,
+            4,
+            4,
+            1,
+            5,
+            5,
+            4,
+            2,
+            4,
+            4
         ]
     },
     {
         name:"Gru",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fdespicableme%2Fimages%2Fa%2Fae%2FGru_doesnt_care.jpg%2Frevision%2Flatest%3Fcb%3D20140217063417&imgrefurl=http%3A%2F%2Fdespicableme.wikia.com%2Fwiki%2FFile%3AGru_doesnt_care.jpg&docid=0upoW1x-8FUXmM&tbnid=v2PhetpGrpkrxM%3A&vet=10ahUKEwjboqy8h_DcAhVB9YMKHVDJAB8QMwhDKA0wDQ..i&w=1920&h=1040&bih=826&biw=1440&q=gru&ved=0ahUKEwjboqy8h_DcAhVB9YMKHVDJAB8QMwhDKA0wDQ&iact=mrc&uact=8",
         scores:[
-            "5",
-            "1",
-            "5",
-            "1",
-            "5",
-            "1",
-            "5",
-            "1",
-            "5",
-            "1"
+            5,
+            1,
+            5,
+            1,
+            5,
+            1,
+            5,
+            1,
+            5,
+            1
         ]
     },
     {
         name:"Minion",
         photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fdespicableme%2Fimages%2Fc%2Fca%2FBob-from-the-minions-movie.jpg%2Frevision%2Flatest%3Fcb%3D20151224154354&imgrefurl=http%3A%2F%2Fdespicableme.wikia.com%2Fwiki%2FBob&docid=6KoEJr5qKf56GM&tbnid=g7SPDJftmL8C6M%3A&vet=10ahUKEwjj6vLnh_DcAhUE74MKHf15BwAQMwj2ASgHMAc..i&w=600&h=552&bih=826&biw=1440&q=minions&ved=0ahUKEwjj6vLnh_DcAhUE74MKHf15BwAQMwj2ASgHMAc&iact=mrc&uact=8",
         scores:[
-            "1",
-            "5",
-            "1",
-            "5",
-            "1",
-            "5",
-            "1",
-            "5",
-            "1",
-            "5"
+            1,
+            5,
+            1,
+            5,
+            1,
+            5,
+            1,
+            5,
+            1,
+            5
         ]
     }
 ];

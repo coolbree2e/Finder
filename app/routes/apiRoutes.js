@@ -21,16 +21,14 @@ module.exports = function (app) {
     var matchP = "";
     console.log("variable for user answers  " + useAns);
     console.log("Is there a photo " + usePhoto);
+
     // compares the user input to the API to find a match
+
       for (let i = 0; i < friends.length; i++) {
-        console.log(JSON.stringify(friends[i]));
+        // puts the user answers into interger
+        console.log(JSON.stringify(friends[i].scores));
       }
-
-
-
-
-
-
+        
 
 
 
