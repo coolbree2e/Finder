@@ -28,12 +28,12 @@ module.exports = function (app) {
       useAns[i] = parseInt(useAns[i]);
     }
 
-for (let apiAns = 0; apiAns < friends.length-1; apiAns++) {
+for (let apiAns = 0; apiAns < 9; apiAns++) {
   var totDiff = 0;
 
 console.log("api as a whole " + friends[apiAns].scores);
 // checks the user answers with the API
-  for (let inputAns = 0; inputAns< 9; inputAns++){
+  for (let inputAns = 0; inputAns< useAns.length; inputAns++){
 // using the foor loop to check 
     if(useInput.answers[inputAns] != friends[apiAns].scores[inputAns]){
       // console.log(useInput.answers[inputAns],friends[apiAns].scores[inputAns])
@@ -52,9 +52,9 @@ function indexOfSmallest(a) {
  }
  
 console.log("This is the answer " + indexOfSmallest(totDifferences));
-
-res.json(friends[indexOfSmallest(totDifferences)]);
-
+var result = friends[indexOfSmallest(totDifferences)]
+res.json(result);
+console.log(result);
  console.log(friends[indexOfSmallest(totDifferences)]);
   })
   // alert("hello");
